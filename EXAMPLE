@@ -1,0 +1,27 @@
+/var/www/ghost/content/themes/casper4$ 
+
+./partials/byline-single.hbs:15:            <p>{{{t "Read <a href='{url}'>more posts</a> by this author" url=(url)}}}.</p>
+./partials/byline-single.hbs:20:    <a class="author-card-button" href="{{url}}">{{t "Read More"}}</a>
+./partials/byline-multiple.hbs:4:        <p>{{t "This post was a collaboration between"}}</p>
+./partials/byline-multiple.hbs:24:                        <p>{{{t "<a href='{url}'>More posts</a> by {name}" url=(url) name=name}}}.</p>
+./partials/byline-multiple.hbs:26:                        <p>{{{t "Read <a href='{url}'>more posts</a> by this author" url=(url)}}}.</p>
+./partials/pagination.hbs:3:        <a class="newer-posts" href="{{page_url prev}}"><span aria-hidden="true">&larr;</span> {{t "Newer Posts"}}</a>
+./partials/pagination.hbs:5:    <span class="page-number">{{t "Page {page} of {pages}" page=page pages=pages}}</span>
+./partials/pagination.hbs:7:        <a class="older-posts" href="{{page_url next}}">{{t "Older Posts"}} <span aria-hidden="true">&rarr;</span></a>
+./partials/floating-header.hbs:11:    <div class="floating-header-title">{{title}}</div>
+./partials/floating-header.hbs:13:        <div class="floating-header-share-label">{{t "Share this"}} {{> "icons/point"}}</div>
+./partials/subscribe_form.hbs:8:    <button class="{{button_class}}" type="submit"><span>{{t "Subscribe"}}</span></button>
+./partials/post-card.hbs:13:                <h2 class="post-card-title">{{title}}</h2>
+./partials/site-nav.hbs:20:                <a class="social-link social-link-tw" href="{{twitter_url @blog.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
+./partials/site-nav.hbs:24:            <a class="subscribe-button" href="#subscribe">{{t "Subscribe"}}</a>
+
+
+./partials/post-card.hbs:38:            <span class="reading-time">{{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span>
+./subscribe.hbs:56:                                placeholder=(t "Your email address")
+./default.hbs:10:    <title>{{meta_title page=(t " (Page %)")}}</title>
+./default.hbs:53:            {{subscribe_form placeholder=(t "youremail@example.com")}}
+./author.hbs:22:                    {{plural ../pagination.total empty=(t "No posts") singular=(t "1 post") plural=(t "% posts")}} <span class="bull">&bull;</span>
+./tag.hbs:15:                    {{plural ../pagination.total empty=(t "A collection of posts") singular=(t "A collection of 1 post") plural=(t "A collection of % posts")}}
+./post.hbs:46:                {{subscribe_form placeholder=(t "youremail@example.com")}}
+./post.hbs:106:                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty=(t "No posts") singular=(t "1 post") plural=(t "See all % posts")}} →</a>
+
