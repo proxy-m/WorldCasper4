@@ -1,4 +1,4 @@
-# Casper
+# WorldCasper 4
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
 
@@ -10,7 +10,7 @@ The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the la
 
 # First time using a Ghost theme?
 
-Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
+Ghost 4.32+ (Ghost-CLI version: 1.18.1+ and casper 4.7.2+) `[do not confuse with Ghost 2.38.3, Ghost-CLI 1.12.0 and casper 2.7.0]` uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
 
 This theme has lots of code comments to help explain what's going on just by reading the code. Once you feel comfortable with how everything works, we also have full [theme API documentation](https://ghost.org/docs/themes/) which explains every possible Handlebars helper and template.
 
